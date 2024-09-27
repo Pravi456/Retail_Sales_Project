@@ -1,5 +1,8 @@
+--CREATE DATABASE
 CREATE DATABASE p1_retail_db;
 
+--CREATE TABLE
+DROP TABLE IF EXITS retail_sales;
 CREATE TABLE retail_sales
 (
     transactions_id INT PRIMARY KEY,
